@@ -1,8 +1,8 @@
 var repo = [{
-    title: 'about_me',
-    authorUrl: 'https://sueanyv.github.io/about_me/',
+  title: 'about_me',
+  authorUrl: 'https://sueanyv.github.io/about_me/',
 
-  },
+},
 
   {
     title: 'cookie-stand',
