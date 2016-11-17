@@ -1,19 +1,18 @@
 var repo = [{
-      title: 'about_me',
-      projectUrl: 'https://sueanyv.github.io/about_me/',
-      imagePath: '',
-  },
+  title: 'about_me',
+  authorUrl: 'https://sueanyv.github.io/about_me/',
+
+},
 
   {
     title: 'cookie-stand',
-    projectUrl: 'https://sueanyv.github.io/cookie-stand/',
-    imagePath: '',
+    authorUrl: 'https://sueanyv.github.io/cookie-stand/',
 
   },
 
   {
     title: 'bus_mall',
-    projectUrl: 'https://sueanyv.github.io/bus_mall/',
-    imagePath: '',
+    authorUrl: 'https://sueanyv.github.io/bus_mall/',
+
   },
 ];
