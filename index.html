@@ -5,16 +5,45 @@
     <meta charset="utf-8">
     <title>
     </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/layout.css">
+    <link rel="stylesheet" type="text/css" href="styles/module.css">
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <script id="project-template" type="text/x-handlebars-template">
+      <article class="article-data">
+      <header>
+        <h1 id="titleStyle">{{title}}</h1>
+        <!-- <div class="date">{{publishStatus}}</div>
+        <div> -->
+        <a href="{{{githubUrl}}}" target="_blank">githubURL goes here</a>
+        <div id="bodyStyle"><p>{{{body}}}</p></div>
+      </header>
+      </article>
+    </script>
 </head>
-
 <body>
-    <nav>
-        <a href="about.me/">About Me</a>
-        <a href="contact.me/">Contact Me</a>
-        <a href="portfolio.me/">Portfolio</a>
+    <nav id="navStyle">
+        <a href="#aboutme">About Me</a>
+        <a href="#contact">Contact Me</a>
+        <a href="#portfolio">Portfolio</a>
     </nav>
 
-</body>
+<section id="aboutme">
+  <p>The about me section</p>
+</section>
 
+<section id="portfolio">
+  <p>The portfolio section</p>
+</section>
+
+<section id="contact">
+  <p>The contact section</p>
+</section>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+<script src="scripts/data.js"></script>
+<script src="scripts/repos.js"></script>
+<script src="scripts/app.js"></script>
 </html>
