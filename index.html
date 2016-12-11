@@ -3,17 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <title>Sugey Valencia</title>
+        <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/module.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script id="portfolio-template" type="text/x-handlebars-template">
-<section>
-      <h2>{{title}}</h2>
 
-      <p>{{category}}</p>
-        <p>{{githubUrl}} </p>
-
-        {{{body}}}
-        <section>
-      </script>
       <nav>
 
         <ul class="topnav" id="myTopnav">
@@ -35,11 +28,23 @@
   <body>
     <header class="site-header clearfix">
       <section class="heading-group-h1">
-        <h1>
+        <h1 id="name">Sugey Valencia</h1>
 
         </h1>
       </section>
     </header>
+      <section ="Work" class="tab-content">
+      <script id="portfolio-template" type="text/x-handlebars-template">
+
+        <h2>{{title}}</h2>
+
+        <p>{{category}}</p>
+          <p>{{githubUrl}} </p>
+
+          {{{body}}}
+        </section>
+        </script>
+
     <main>
       <section id="projects"></section>
     </main>
