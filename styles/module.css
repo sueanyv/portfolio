@@ -13,10 +13,10 @@ ul.topnav li a {
   color: #f2f2f2;
   font-family: 'Lobster', cursive;
   text-align: center;
-  padding: 14px 16px;
+  padding: 2px 16px;
   text-decoration: none;
   transition: 0.3s;
-  font-size: 17px;
+  font-size: 18px;
 }
 .button{
 
@@ -33,3 +33,8 @@ font-family: 'Lobster', cursive;
 ul.topnav li a:hover {background-color: #555;}
 
 ul.topnav li.icon {display: none;}
+#name{
+  font-family: 'Aguafina Script', cursive;
+font-size: 30px;
+text-shadow: 2px black;
+}
