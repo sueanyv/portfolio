@@ -1,62 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Seattle Neighborhood Data</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script id="portfolio-template" type="text/x-handlebars-template">
+<section>
+      <h2>{{title}}</h2>
 
-<head>
-    <meta charset="utf-8">
-    <title>
-        Portfolio
-    </title>
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/layout.css">
-    <link rel="stylesheet" href="styles/module.css">
-<script id="article-template" type="text/x-handlebars-template">
-</head>
+      <p>{{category}}</p>
+        <p>{{githubUrl}} </p>
 
-<body>
+        {{{body}}}
+        <section>
+      </script>
+  </head>
+  <body>
     <header class="site-header clearfix">
-        <section class="heading-group-h1">
+      <section class="heading-group-h1">
+        <h1>
 
-
-            <h2>Sugey Valencia</h2>
-        </section>
-        <nav class="main-nav">
-            <!-- Hamburger Menu -->
-            <div class="icon-menu"></div>
-            <ul>
-                <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
-                <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
-                <li>
-                    <a href="http://twitter.com/codefellowsSEA" target="_blank" class="icon-twitter3"></a>
-                </li>
-                <li>
-                    <a href="http://github.com/" target="_blank" class="icon-github"></a>
-                </li>
-            </ul>
-        </nav>
+        </h1>
+      </section>
     </header>
+    <main>
+      <section id="projects"></section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+    <script src="data/portfolioData.JSON"></script>
+    <script src="scripts/portfolio.js"></script>
+    <script src="scripts/portfolioView.js"></script>
 
 
-
-
-    <section id="aboutme" class="tab-content">
-
-    </section>
-
-    <section id="portfolio" class="tab-content">
-<h1>{{title}}<h1>
-  <h1>{{category}}<h1>
-    <h1>{{publishedOn}}<h1>
-    </section>
-    <section id="contact" class="tab-content">
-
-    </section>
-
-
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
 </body>
 
 </html>
