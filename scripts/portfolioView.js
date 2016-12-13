@@ -6,7 +6,7 @@ portfolioView.renderIndexPage = function() {
   projects.forEach(function(NewProjectObject) {
     $('#projects').append(NewProjectObject.toHtml());
   });
-}
+};
 portfolioView.handleMainNav = function() {
   $('.main-nav').on('click', '.tab', function(e) {
     $('.tab-content').hide();

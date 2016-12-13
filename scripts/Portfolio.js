@@ -12,13 +12,7 @@ Project.prototype.toHtml = function() {
   return templateRender(this);
 };
 
-// projectData.forEach(function(projectObject) {
-//   projects.push(new Project(projectObject));
-// });
-//
-// projects.forEach(function(NewProjectObject) {
-//   $('#projects').append(NewProjectObject.toHtml());
-// });
+
 
 
 Project.fetchAll = function() {
