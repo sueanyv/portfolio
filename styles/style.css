@@ -1,22 +1,29 @@
-.portimg{
-  height: 200px;
-  width: 200px;
+.portimg {
+    height: 200px;
+    width: 200px;
 }
-#work {
-  display: inline-block;;
-  border: dashed green;
-  width: 100%
-}
-#blue{
-  display: inline-block;
-  border: dashed blue;
-width: 200px;}
 
-#projects{
-border: dashed yellow;
-width: 100%;
-height: 300px;}
+#work {
+    display: inline-block;
+    ;
+    border: dashed green;
+    width: 100%
 }
-body{
-  display: inline-block;
+
+#blue {
+    display: inline-block;
+    border: dashed blue;
+    width: 200px;
+}
+
+#projects {
+    border: dashed yellow;
+    width: 100%;
+    height: 300px;
+}
+
+
+}
+body {
+    display: inline-block;
 }
