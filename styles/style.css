@@ -2,3 +2,12 @@
   height: 200px;
   width: 200px;
 }
+#work {
+  display: inline-block;;
+  border: dashed green;
+  width: 100%
+}
+#blue{
+  display: inline-block;
+  border: dashed blue;
+width: 200px;}
