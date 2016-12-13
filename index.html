@@ -1,10 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title></title>
+    <meta charset="UTF-8">
+    <title>Sugey Valencia</title>
+    <link href="https://fonts.googleapis.com/css?family=Aguafina+Script" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/module.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-  <body>
+  <header>
 
-  </body>
+  <img src="sue.png" id="name" />
+      <nav>
+
+        <ul class="topnav" id="myTopnav">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="desabout.html">About</a></li>
+        <li><a href="desabout.html">Work</a></li>
+
+          <li><a href="mailto:someone@example.com?Subject=Hello%20again" target="_top"><i class="fa fa-envelope" aria-hidden="true"></i></i></a></li>
+          <li><a href="https://www.linkedin.com/in/sugey-valencia-275591121?trk=hp-identity-name"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/sueanyv"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/SueannieV"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li class="icon">
+          <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+        </ul>
+      </li>
+      </nav>
+<section>
+
+      </section>
+    </header>
+
+      <section ="Work" class="tab-content">
+      <script id="portfolio-template" type="text/x-handlebars-template">
+
+        <h2>{{title}}</h2>
+
+        <p>{{category}}</p>
+          <p>{{githubUrl}} </p>
+
+          {{{body}}}
+        </section>
+        </script>
+
+    <main>
+      <section id="projects"></section>
+    </main>
+    <footer>
+      <nav>
+
+        <ul class="bottompnav" id="bottomnav">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="desabout.html">About</a></li>
+        <li><a href="desabout.html">Work</a></li>
+
+          <li><a href="mailto:someone@example.com?Subject=Hello%20again" target="_top"><i class="fa fa-envelope" aria-hidden="true"></i></i></a></li>
+          <li><a href="https://www.linkedin.com/in/sugey-valencia-275591121?trk=hp-identity-name"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/sueanyv"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/SueannieV"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li class="icon">
+          <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+        </ul>
+      </li>
+      </nav>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+    <script src="data/portfolioData.JSON"></script>
+    <script src="scripts/portfolio.js"></script>
+    <script src="scripts/portfolioView.js"></script>
+      <script src="https://use.fontawesome.com/fc08df0428.js"></script>
+
+
+</body>
+
 </html>
