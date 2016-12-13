@@ -8,11 +8,11 @@ portfolioView.renderIndexPage = function() {
   });
 };
 portfolioView.handleMainNav = function() {
-  $('.main-nav').on('click', '.tab', function(e) {
+  $('.topnav').on('click', '.tab', function(e) {
     $('.tab-content').hide();
     $('#' + $(this).data('content')).fadeIn();
   });
-  $('.main-nav .tab:first').click();
+  $('.topnav .tab:first').click();
 };
 portfolioView.handleMainNav();
 portfolioView.renderIndexPage();
