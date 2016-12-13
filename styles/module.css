@@ -25,9 +25,9 @@ ul.topnav li a:hover {background-color: #555;}
 
 ul.topnav li.icon {display: none;}
 #name{
+  font-family: 'Aguafina Script', cursive;
   margin-top: 5%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
+  text-align: center;
+font-size: 40px;
 }
