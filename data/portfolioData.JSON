@@ -5,6 +5,7 @@ var projectData = [{
   "title": "DesPicker",
 "category": "JavaScript, Html, Css,",
    "githubUrl": "https://sueanyv.github.io/DesPicker/",
+   "img":"img/royal.jpg",
   "publishedOn": "2014-10-22",
   "body": "## The RSS sensor is down, synthesize the open-source sensor so we can synthesize the RSS sensor!\n"
   },
@@ -13,6 +14,7 @@ var projectData = [{
   "title": "Saw",
   "category": "JavaScript, Html, Css, Chart Js",
   "githubUrl": "https://averypratt.github.io/Jigsaw-Puzzle/",
+   "img":"img/saw.jpg",
   "publishedOn": "2014-01-22",
   "body": "## The RSS sensor is down, synthesize the open-source sensor so we can synthesize the RSS sensor!\n"
   },
