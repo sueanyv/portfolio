@@ -9,6 +9,16 @@
     <link rel="stylesheet" type="text/css" href="styles/module.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+            <script id="portfolio-template" type="text/x-handlebars-template">
+    <section id="work" class="tab-content">
+                    <h2>{{title}}</h2>
+                    <a href="{{githubUrl}}"><img src={{img}} class="portimg"></a>
+
+                </section>
+            </script>
+            
 </head>
 <header>
 
@@ -36,13 +46,6 @@
 
 <body>
 
-        <script id="portfolio-template" type="text/x-handlebars-template">
-          <section id="work" class="tab-content">
-                <h2>{{title}}</h2>
-                <a href="{{githubUrl}}"><img src={{img}} class="portimg"></a>
-
-            </section>
-        </script>
 <section id="home" class="tab-content">
   </section>
 
