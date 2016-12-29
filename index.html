@@ -9,16 +9,15 @@
     <link rel="stylesheet" type="text/css" href="styles/module.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-            <script id="portfolio-template" type="text/x-handlebars-template">
     <section id="work" class="tab-content">
-                    <h2>{{title}}</h2>
-                    <a href="{{githubUrl}}"><img src={{img}} class="portimg"></a>
 
-                </section>
-            </script>
-            
+        <script id="portfolio-template" type="text/x-handlebars-template">
+            <section>
+                <h2>{{title}}</h2>
+                <a href="{{githubUrl}}"><img src={{img}} class="portimg"></a>
+            </section>
+        </script>
+    </section>
 </head>
 <header>
 
@@ -26,10 +25,9 @@
     <nav>
 
         <ul class="topnav" id="myTopnav">
-            <li class="tab" data-content="home"><a href="#">Home</a></li>
-            <li class="tab" data-content="about"><a href="#">About</a></li>
-            <li class="tab" data-content="work"><a href="#">Work</a></li>
-            <li class="tab" data-content="resume"><a href="#">Resume</a></li>
+            <li class="tab" data-content="home"><a href="/">Home</a></li>
+            <li class="tab" data-content="about"><a href="/about">About</a></li>
+            <li class="tab" data-content="work"><a href="/work">/work</a></li>
             <li><a href="https://github.com/sueanyv"></a>Git Hub</li>
             <li><a href="mailto:someone@example.com?Subject=Hello%20again" target="_top"><i class="fa fa-envelope" aria-hidden="true"></i></i></a></li>
 
@@ -46,8 +44,8 @@
 
 <body>
 
-<section id="home" class="tab-content">
-  </section>
+    <section id="home" class="tab-content">
+    </section>
 
     <section id="about" class="tab-content">
         <h1>About ME</h1>
