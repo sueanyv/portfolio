@@ -19,12 +19,12 @@
 
 (function(module){
 
-  var aboutController = {};
+  var aboutPage = {};
 
-  aboutController.reveal = function(){
+  aboutPage.reveal = function(){
     $('section').hide();
     $('.about-section').fadeIn();
   };
 
-  module.aboutController = aboutController;
+  module.aboutPage = aboutPage;
 })(window);

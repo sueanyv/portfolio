@@ -1,4 +1,4 @@
-page('/', homeController.reveal);
-page('/about', aboutController.reveal);
-page('/project', projectController.reveal);
+page('/', homePage.reveal);
+page('/about',
+page('/work',
 page()
