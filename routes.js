@@ -1,4 +1,4 @@
 page('/', homePage.reveal);
-page('/about',
-page('/work',
-page()
+page('/about',aboutPage.reveal);
+page('/work', projectPage.reveal);
+page();
