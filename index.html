@@ -7,10 +7,8 @@
     <link href="https://fonts.googleapis.com/css?family=Aguafina+Script" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link rel="stylesheet" type="text/css" href="styles/module.css">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <section id="work" class="tab-content">
-
         <script id="portfolio-template" type="text/x-handlebars-template">
             <section>
                 <h2>{{title}}</h2>
@@ -19,11 +17,9 @@
         </script>
     </section>
 </head>
+<body>
 <header>
-
-    <img src="sue.png" id="name" />
     <nav>
-
         <ul class="topnav" id="myTopnav">
             <li class="tab" data-content="home"><a href="/">Home</a></li>
             <li class="tab" data-content="about"><a href="/about">About</a></li>
@@ -31,14 +27,13 @@
             <li><a href="https://github.com/sueanyv"></a>Git Hub</li>
             <li><a href="mailto:someone@example.com?Subject=Hello%20again" target="_top"><i class="fa fa-envelope" aria-hidden="true"></i></i></a></li>
             <li><a href="https://www.linkedin.com/in/sugey-valencia-275591121?trk=hp-identity-name"></a>Contact</li>
-            <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+            <li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a></li>
         </ul>
-        </li>
     </nav>
 
 </header>
 
-<body>
+</body>
 
     <section id="home" class="tab-content">
     </section>
@@ -48,14 +43,7 @@
         <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut rhoncus urna. Ut egestas ullamcorper lorem, quis condimentum ex elementum ut. Nulla in euismod mauris. Etiam mattis nunc ut sapien laoreet, non rhoncus nunc sollicitudin. Nulla gravida
             non augue et hendrerit. Suspendisse potenti. Nunc fringilla metus vel hendrerit laoreet. Quisque maximus augue quis nisi ullamcorper dictum. Duis eget elit est.</p>
     </section>
-    <section id="resume" class="tab-content">
-        <h1>Resume</h1>
-        <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut rhoncus urna. Ut egestas ullamcorper lorem, quis condimentum ex elementum ut. Nulla in euismod mauris. Etiam mattis nunc ut sapien laoreet, non rhoncus nunc sollicitudin. Nulla gravida
-            non augue et hendrerit. Suspendisse potenti. Nunc fringilla metus vel hendrerit laoreet. Quisque maximus augue quis nisi ullamcorper dictum. Duis eget elit est.</p>
 
-        <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut rhoncus urna. Ut egestas ullamcorper lorem, quis condimentum ex elementum ut. Nulla in euismod mauris. Etiam mattis nunc ut sapien laoreet, non rhoncus nunc sollicitudin. Nulla gravida
-            non augue et hendrerit. Suspendisse potenti. Nunc fringilla metus vel hendrerit laoreet. Quisque maximus augue quis nisi ullamcorper dictum. Duis eget elit est.</p>
-    </section>
 
     <footer>
     </footer>
@@ -65,7 +53,10 @@
     <script src="scripts/portfolio.js"></script>
     <script src="scripts/portfolioView.js"></script>
     <script src="https://use.fontawesome.com/fc08df0428.js"></script>
-
+    <script src="controller/homeController.js"></script>
+    <script src="controller/aboutController.js"></script>
+    <script src="controller/workController.js"></script>
+    <script src="js/controller/routes.js"></script>
 
 </body>
 
