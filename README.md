@@ -8,3 +8,7 @@
 Command will print a inverted, random color version, bluescale, and  grayscale version of original image.   
    _**Random image may be different than shown above_
 </p>
+
+
+Command will print a inverted, random color version, bluescale, and  grayscale version of original image.   
+   _**Random image may be different than shown above_
